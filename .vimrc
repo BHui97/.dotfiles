@@ -3,13 +3,14 @@ syntax on
 let mapleader=','
 set hlsearch
 set incsearch
-set relativenumber
+" set relativenumber
 set cursorline
 
-"set number
+set number
 set tabstop=4
 set shiftwidth=4
 set autoindent
+set updatetime=100
 
 call plug#begin('~/.vim/plugged')
 
@@ -23,6 +24,8 @@ Plug 'tpope/vim-surround'
 Plug 'lfv89/vim-interestingwords'
 Plug 'tpope/vim-commentary'
 Plug 'Yggdroot/indentLine'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 colorscheme hybrid
