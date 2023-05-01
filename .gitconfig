@@ -1,0 +1,7 @@
+[credential]
+	helper = store
+[user]
+	name = Bo
+	email = bo.hui@jhu.edu
+[core]
+	editor = vim
